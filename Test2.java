@@ -13,6 +13,8 @@ public class Test2 {
         double precio= sn.nextDouble();
         double precioFinal= precio*IVA;
         System.out.println("El precio con IVA es: " + precioFinal);
+
+        // Version pormateada para que solo se pueda ver 2 decimanles
         System.out.printf("El precio Final es: %.2f%n", precioFinal);
 
         
