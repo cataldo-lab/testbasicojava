@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class Test4 {
     public static void main(String[] args) {
-        System.out.println("Introduce un año");
+        System.out.println("Introduce el año");
         Scanner sn=new Scanner(System.in);
         int año=sn.nextInt();
         if(año%4==0 && año%100!=0 || año%400==0){
